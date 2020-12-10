@@ -77,7 +77,7 @@ function validateForm() {
     }
     if (k == "") {
         document.getElementById('name_err10').innerHTML = "required";
-        return false
+        return true
     }
     else {
         document.getElementById('name_err10').innerHTML = "";
